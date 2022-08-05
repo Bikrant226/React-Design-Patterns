@@ -1,3 +1,4 @@
+import { Modal } from "./components/Modal";
 import { SplitScreen } from "./SplitScreen";
 
 const LeftComponent=({message})=>{
@@ -22,6 +23,7 @@ function App() {
           <LeftComponent message="Hello"/>
           <RightComponent name="Bikrant"/>
         </SplitScreen>
+        <Modal/>
     </div>
   );
 }
